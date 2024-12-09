@@ -25,6 +25,7 @@ body {
 }
 
 header {
+    z-index: 999;
     height: 150px;
     width: 100%;
     grid-area: header;
@@ -49,7 +50,7 @@ header {
     border-radius: 10px;
 }
 
-@media (1000px < width) {
+@media (1000px < width ) {
     aside {
         height: calc(100vh - 150px);
         top: 150px;
@@ -90,6 +91,15 @@ header {
         }
     }
 }
+
+@media (1270px > height ) {
+
+    aside {
+        top: 0;
+        position: relative;
+    }
+}
+
 
 #personalia, .talen, .frontend, .backend {
     display: grid;
