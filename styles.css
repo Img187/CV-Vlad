@@ -6,7 +6,7 @@ html {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background-image: url(./icons/cornedered-stairs.svg);
+    background-image: url(icons/cornedered-stairs.svg);
     background-size: cover;
 }
 
@@ -283,4 +283,5 @@ footer {
     }
 
 }
+
 
